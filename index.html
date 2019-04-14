@@ -10,25 +10,15 @@
 </head>
 <body>
   <h1 class="heading">WTA Whizz Tennis Quiz</h1>
+  <div class="images">
+    <img class="questionImage" src="images/avatar.png" alt="Tennis avatar"/>
+    <img class="questionImage2" src="images/ball.png" alt="Tennis ball"/>
+    <img class="questionImage3" src="images/game.png" alt="Tennis court"/>
+  </div>
   <div id="wrapper">
-    <div id="start">Start the Quiz!</div>
-    <div class="quiz">
-      <div class="question"></div>
-      <div class="questionImage"></div>
-      <div class="choices">
-        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-        <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-        <div class="choice" id="D" onclick="checkAnswer('D')"></div>
-      </div>
-      <div id="timer">
-        <div class="counter"></div>
-        <div class="btimeGauge"></div>
-        <div class="timeGauge"></div>
-      </div>
-      <div class="progress"></div>
+    <h3 id="test_status"></h3>
+    <div id="quiz">
     </div>
-    <div class="scoreContainer"></div>
   </div>
 </body>
 </html>
