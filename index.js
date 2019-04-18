@@ -33,7 +33,7 @@ const questions =
     "C"
   ],
   [
-     "Which of these players is not among the 13 women who have finished the season as the Year Ending #1 player?",
+     "What are the four Premier Mandatory tournamets on the WTA Tour?",
 
     "Indian Wells, Miami, Rome, Beijing",
     "Indian Wells, Miami, Madrid, Beijing",
@@ -75,7 +75,7 @@ const questions =
     "D"
   ],
   [
-     "I have won 2 WTA tournaments, one of which is a Grand Slam. Who am I?",
+     "The championship match of the 2018 WTA Finals was played by which two players?",
     "Elina Svitolina and Sloane Stephens",
     "Caroline Wozniacki and Venus Williams",
     "Karolina Pliskova and Elina Svitolina",
