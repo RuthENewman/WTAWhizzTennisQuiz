@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     font-size: 20px;
     font-family: "Helvetica Neue", "Arial", sans-serif;
     background-image: -webkit-linear-gradient(30deg, #d4fc79 0%, #96e6a1 100%);
@@ -114,4 +115,98 @@ body {
 
 #quiz > button:hover {
     font-weight: bold;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    height: 100vh;
+    font-size: 16px;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    background-image: -webkit-linear-gradient(30deg, #d4fc79 0%, #96e6a1 100%);
+    background-image: -o-linear-gradient(30deg, #d4fc79 0%, #96e6a1 100%);
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    overflow-x: hidden;
+    color: #96e6a1;
+    }
+
+    .heading {
+      color: white;
+      text-align: center;
+      margin-top: 1em;
+      margin-left: 0;
+      margin-right: 30px;
+  }
+
+  .questionImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .questionImage2 {
+      width: 100px;
+      height: 100px;
+      margin-left: 5px;
+      margin-top: -5px;
+  }
+
+  .questionImage3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-top: -5px;
+  }
+
+  #wrapper {
+    margin: 30px auto;
+    background-color: white;
+    height: 320px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: block;
+  }
+
+  #quiz {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+
+  #question {
+    width: auto;
+    height: auto;
+    position: relative;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #question p {
+    font-size: 1.25em;
+    font-size: 16px;
+    width: 90%;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  #quiz > input {
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: 40px;
+  }
+
+  #quiz > button {
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: #96e6a1;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+
 }
